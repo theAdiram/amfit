@@ -1,73 +1,21 @@
-# Welcome to your Lovable project
 
-## Project info
+Home Workout Planner – Your Personal Fitness Coach at Home
+No gym? No problem. This app is all you need.
 
-**URL**: https://lovable.dev/projects/98586db1-17bf-4862-ad69-408a66b9829e
+The Home Workout Planner creates a personalized fitness plan just for you—no equipment needed. Whether your goal is to lose weight, build muscle, or stay active, the app builds a routine that fits your body, schedule, and lifestyle.
 
-## How can I edit this code?
+🔍 What Makes It Special?
+1. Smart Personalization
+We don’t give random workouts. You’ll fill a quick profile (age, body stats, fitness goals, time available, injuries, and preferences), and the app creates a plan tailored just for you.
 
-There are several ways of editing your application.
+2. Equipment-Free Routines
+Every workout is designed to be done at home, with no equipment. From beginners to pros, we adjust the difficulty as you progress.
 
-**Use Lovable**
+3. Real-Time Guided Workouts
+You’ll get timers, voice guidance, and step-by-step video demos for every move. It’s like having a personal trainer in your pocket.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/98586db1-17bf-4862-ad69-408a66b9829e) and start prompting.
+4. Track Your Progress
+Log workouts, track your body changes, and see how far you’ve come. The app keeps evolving your workouts as you grow stronger.
 
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/98586db1-17bf-4862-ad69-408a66b9829e) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes it is!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+5. Stay Motivated
+Unlock achievements, hit weekly targets, and stay on track with regular progress check-ins.
