@@ -1,0 +1,111 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 222 47% 8%;
+    --foreground: 0 0% 98%;
+
+    --card: 222 47% 11%;
+    --card-foreground: 0 0% 98%;
+
+    --popover: 222 47% 11%;
+    --popover-foreground: 0 0% 98%;
+
+    --primary: 326 100% 60%;
+    --primary-foreground: 0 0% 98%;
+
+    --secondary: 222 47% 16%;
+    --secondary-foreground: 0 0% 98%;
+
+    --muted: 222 47% 16%;
+    --muted-foreground: 215 20.2% 65.1%;
+
+    --accent: 186 100% 50%;
+    --accent-foreground: 0 0% 98%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 222 47% 16%;
+    --input: 222 47% 16%;
+    --ring: 186 100% 50%;
+    
+    --radius: 0.75rem;
+
+    --sidebar-background: 222 47% 11%;
+    --sidebar-foreground: 0 0% 98%;
+    --sidebar-primary: 326 100% 60%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 222 47% 16%;
+    --sidebar-accent-foreground: 0 0% 98%;
+    --sidebar-border: 222 47% 16%;
+    --sidebar-ring: 186 100% 50%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border selection:bg-primary/20 selection:text-foreground;
+  }
+  
+  body {
+    @apply bg-background text-foreground antialiased;
+  }
+
+  html {
+    @apply scroll-smooth;
+  }
+}
+
+@layer utilities {
+  .neon-glow {
+    @apply relative;
+  }
+  
+  .neon-glow::after {
+    @apply content-[''] absolute inset-0 rounded-md opacity-70 blur-sm -z-10;
+  }
+  
+  .neon-pink::after {
+    @apply bg-neon-pink;
+  }
+  
+  .neon-cyan::after {
+    @apply bg-neon-cyan;
+  }
+  
+  .neon-green::after {
+    @apply bg-neon-green;
+  }
+  
+  .neon-yellow::after {
+    @apply bg-neon-yellow;
+  }
+
+  .neon-text-pink {
+    @apply text-neon-pink drop-shadow-[0_0_5px_#FF3CA4];
+  }
+  
+  .neon-text-cyan {
+    @apply text-neon-cyan drop-shadow-[0_0_5px_#00E9FF];
+  }
+  
+  .neon-text-green {
+    @apply text-neon-green drop-shadow-[0_0_5px_#34FFB6];
+  }
+  
+  .neon-text-yellow {
+    @apply text-neon-yellow drop-shadow-[0_0_5px_#FFDE33];
+  }
+
+  .glass-card {
+    @apply bg-card/80 backdrop-blur-lg border border-white/10 shadow-lg;
+  }
+  
+  .data-card {
+    @apply glass-card p-4 md:p-6 rounded-xl overflow-hidden;
+  }
+}
